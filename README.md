@@ -43,15 +43,6 @@ make clean
 - **04_read_write_cdev**: 문자 디바이스의 `read` 및 `write` operation 구현
 - **05_cdev_class_device**: `struct class`와 `struct device` 기반으로 `/dev`에 디바이스 파일 자동 생성
 
-## 스크립트 사용법
-`scripts` 디렉토리에 Linux 커널 코딩 스타일을 검사하는 스크립트(`checkpatch.pl`) 포함
-
-### 사용 예시
-
-```
-./scripts/checkpatch.pl -no-tree --file 01_hello/hello.c
-```
-
 ## 참고자료
 
 [Johannes 4GNU_Linux (Youtube)](https://www.youtube.com/@johannes4gnu_linux96)
