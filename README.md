@@ -51,3 +51,7 @@ make clean
 ```
 ./scripts/checkpatch.pl -no-tree --file 01_hello/hello.c
 ```
+
+## 참고자료
+
+[Johannes 4GNU_Linux (Youtube)](https://www.youtube.com/@johannes4gnu_linux96)
