@@ -42,6 +42,7 @@ make clean
 - **03_open_release_cdev**: 문자 디바이스의 `open` 및 `release` operation 구현
 - **04_read_write_cdev**: 문자 디바이스의 `read` 및 `write` operation 구현
 - **05_cdev_class_device**: `struct class`와 `struct device` 기반으로 `/dev`에 디바이스 파일 자동 생성
+- **06_kmalloc**: `kmalloc`과 `file->private_data`를 이용한 커널 동적 메모리 관리
 
 ## 참고자료
 
